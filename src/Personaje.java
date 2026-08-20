@@ -1,15 +1,10 @@
-import java.util.Scanner;
+public class Personaje {
+    String nombre;
+    String apellido;
+    int vida;
+    boolean vivo = true;
+    int edad;
+    
 
-public class Main {
-
-    public static void main(String[] args) {
-
-        
-
-
-
-
-
-    }
     
 }
