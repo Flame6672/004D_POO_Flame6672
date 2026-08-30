@@ -267,7 +267,7 @@ public class Personaje {
     if (vida < 0){
 
       System.out.print("La vida del personaje no puede ser negativa. Que demonios haces!");
-
+      
       this.vida = 0;
 
     } else{
