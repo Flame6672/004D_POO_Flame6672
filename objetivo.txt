@@ -1,5 +1,0 @@
-Hacer que el metodo "Crear personaje" me permita seleccionar el tipo de personaje que deseo crear (Hacker, Gamedev, Programador) y además crear una nueva clase, finalmente no se olvide de agregar los atributos y comportamientos propios de cada clase.
-
-Posible clase: Telecomunicador
-Atributo: Redes disponibles
-Ataque: Caos de Protocolos
