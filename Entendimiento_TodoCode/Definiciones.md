@@ -19,3 +19,4 @@ Dato: Los nombres de las clases deben ser preferencialmente en singular.
 
 **Metodos constructores:** Son funciones especiales que permiten la creacion de objetos, pueden recibir datos/parametros como no (Constructor vacío), se llaman siempre como la clase, no retornan nunca un valor, normalmente se usan constructores vacíos (Permiten crear objetos sin datos, solo con atributos pero sin datos guardados) y los constructores que pueden recibir parametros.
 
+**Getter y setters:** Van ANTES de los metodos
