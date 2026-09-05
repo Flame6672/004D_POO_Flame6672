@@ -1,12 +1,8 @@
 public class Publicacion {
-    String ID;
-    String autor;
-    String fechaCreacion;
-    int likes;
-    boolean estaActiva;
-
-    
-    
+    private String ID;
+    private String autor;
+    private String fechaCreacion;
+    private int likes;
+    protected boolean estaActiva;   
 }
-
 
