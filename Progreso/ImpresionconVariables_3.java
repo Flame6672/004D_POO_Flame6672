@@ -1,6 +1,6 @@
 package Progreso;
 
-public class ImpresionconVariables {
+public class ImpresionconVariables_3 {
 
 
     public static void main(String[] args) {

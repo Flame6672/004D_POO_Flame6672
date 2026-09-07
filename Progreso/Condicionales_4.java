@@ -2,12 +2,11 @@ package Progreso;
 
 import java.util.Scanner;
 
-public class Condicionales {
+public class Condicionales_4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Ingrese su nota: ");
         int nota = input.nextInt();
-        
 
         if (nota < 4) {
             System.out.println("Nota insuficiente");

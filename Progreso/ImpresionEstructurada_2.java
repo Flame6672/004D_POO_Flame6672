@@ -1,6 +1,6 @@
 package Progreso;
 
-public class ImpresionEstructurada {
+public class ImpresionEstructurada_2 {
     public static void main(String[] args) {
         System.out.println("=====================================");
         System.out.println("    MI PERFIL");
