@@ -1,0 +1,3 @@
+Las clases abstractas es una clase que no se puede instanciar, cuyo objetivo puede ser proteger a la clase, no se requieren llaves para esta clase(No requiere logica, solo existe), se crea con el fin para que las clases hijas puedan heredarla y modificarla como quieran de la clase padre
+
+En otras palabras, es como crear el comportamiento caminar() en la clase padre, pero todas las clases hijas caminan distinto

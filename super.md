@@ -1,0 +1,1 @@
+El super hereda el comportamiento de la clase padre, osea que podríamos obtener tambien el constructor de la clase padre.
