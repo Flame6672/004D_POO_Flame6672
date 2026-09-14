@@ -19,6 +19,6 @@ public class ProductoDigital extends Producto {
     @Override
     public int calcularPrecioFinal() {
         // TODO Auto-generated method stub
-        return (getprecioBase() * this.descuento) / 100;
+        return getprecioBase() - (getprecioBase() * this.descuento) / 100;
     }
 }
