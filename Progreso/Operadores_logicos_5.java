@@ -2,7 +2,7 @@ package Progreso;
 
 import java.util.Scanner;
 
-public class Operadores_logicos {
+public class Operadores_logicos_5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
@@ -15,7 +15,7 @@ public class Operadores_logicos {
             System.out.println("No puedes ingresar :(");
         }
 
-        else if (edadUser > 18 && estaturaUser <= 160) {
+        else if (edadUser >= 18 && estaturaUser < 160) {
             System.out.println("Puedes ingresar, pero no cumples con el requisito de estatura :|");
         }
 
