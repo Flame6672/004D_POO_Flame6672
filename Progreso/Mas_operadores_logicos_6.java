@@ -2,7 +2,7 @@ package Progreso;
 
 import java.util.Scanner;
 
-public class Mas_operadores_logicos {
+public class Mas_operadores_logicos_6 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Ingrese su edad: ");
