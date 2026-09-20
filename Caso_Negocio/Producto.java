@@ -1,6 +1,6 @@
 package Caso_Negocio;
 
-public class Producto {
+public abstract class Producto {
     private String nombre;
     private int precioBase;
     private int stock;
@@ -24,7 +24,19 @@ public class Producto {
     }
 
     public void setStock(int stock) {
-        this.stock = stock;
+        if (stock < 0){
+            System.out.println("El stock no puede ser negativo o 0");
+        }
+        else {
+            this.stock = stock;
+            System.out.println("Se actualizo el stock");
+        }
+    }
+
+    public abstract int calcularprecioFinal();
+
+    public String mostrarInfo() {
+        return this.getNombre() + "$" + this.getPrecioBase() + " Cantidad [" + this.stock + "]";
     }
 
 }
