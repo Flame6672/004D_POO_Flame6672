@@ -12,15 +12,15 @@ public abstract class Producto {
     }
 
     public String getNombre() {
-        return nombre;
+        return this.nombre;
     }
 
     public int getPrecioBase() {
-        return precioBase;
+        return this.precioBase;
     }
 
     public int getStock() {
-        return stock;
+        return this.stock;
     }
 
     public void setStock(int stock) {
